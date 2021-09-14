@@ -10,7 +10,7 @@ const home = require("./routes/home");
 app.set("views", "./views");
 app.set("view engine", "ejs");
 
-//
+//문제를 차자봅시다
 app.use("/", home);
 
 module.exports=app;
